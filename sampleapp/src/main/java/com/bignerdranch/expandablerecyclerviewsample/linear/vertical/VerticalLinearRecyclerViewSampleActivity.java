@@ -3,11 +3,6 @@ package com.bignerdranch.expandablerecyclerviewsample.linear.vertical;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.UiThread;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.widget.Toast;
 
 import com.bignerdranch.expandablerecyclerview.ExpandableRecyclerAdapter;
@@ -15,6 +10,12 @@ import com.bignerdranch.expandablerecyclerviewsample.R;
 
 import java.util.Arrays;
 import java.util.List;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.UiThread;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * Sample Activity for the vertical linear RecyclerView sample.
@@ -24,7 +25,7 @@ import java.util.List;
  * @version 1.0
  * @since 5/27/2015
  */
-public class VerticalLinearRecyclerViewSampleActivity extends AppCompatActivity{
+public class VerticalLinearRecyclerViewSampleActivity extends AppCompatActivity {
 
     private RecipeAdapter mAdapter;
 

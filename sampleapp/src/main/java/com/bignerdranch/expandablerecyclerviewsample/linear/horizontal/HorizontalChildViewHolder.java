@@ -1,12 +1,13 @@
 package com.bignerdranch.expandablerecyclerviewsample.linear.horizontal;
 
-import android.support.annotation.NonNull;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
 import com.bignerdranch.expandablerecyclerview.ChildViewHolder;
 import com.bignerdranch.expandablerecyclerviewsample.R;
+
+import androidx.annotation.NonNull;
 
 /**
  * Custom child ViewHolder. Any views should be found and set to public variables here to be

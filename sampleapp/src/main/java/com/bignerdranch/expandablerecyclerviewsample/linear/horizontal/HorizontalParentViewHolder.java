@@ -3,7 +3,6 @@ package com.bignerdranch.expandablerecyclerviewsample.linear.horizontal;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.os.Build;
-import android.support.annotation.NonNull;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -14,6 +13,8 @@ import android.widget.Toast;
 
 import com.bignerdranch.expandablerecyclerview.ParentViewHolder;
 import com.bignerdranch.expandablerecyclerviewsample.R;
+
+import androidx.annotation.NonNull;
 
 /**
  * Custom parent ViewHolder. Any views should be found and set to public variables here to be

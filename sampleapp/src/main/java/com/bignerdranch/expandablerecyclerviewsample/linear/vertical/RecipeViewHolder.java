@@ -2,7 +2,6 @@ package com.bignerdranch.expandablerecyclerviewsample.linear.vertical;
 
 import android.annotation.SuppressLint;
 import android.os.Build;
-import android.support.annotation.NonNull;
 import android.view.View;
 import android.view.animation.RotateAnimation;
 import android.widget.ImageView;
@@ -10,6 +9,8 @@ import android.widget.TextView;
 
 import com.bignerdranch.expandablerecyclerview.ParentViewHolder;
 import com.bignerdranch.expandablerecyclerviewsample.R;
+
+import androidx.annotation.NonNull;
 
 public class RecipeViewHolder extends ParentViewHolder {
 

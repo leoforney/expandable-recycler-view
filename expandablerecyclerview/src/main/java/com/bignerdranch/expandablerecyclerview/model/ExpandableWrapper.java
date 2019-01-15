@@ -1,9 +1,10 @@
 package com.bignerdranch.expandablerecyclerview.model;
 
-import android.support.annotation.NonNull;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import androidx.annotation.NonNull;
 
 /**
  * Wrapper used to link metadata with a list item.

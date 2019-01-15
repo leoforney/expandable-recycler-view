@@ -1,8 +1,6 @@
 package com.bignerdranch.expandablerecyclerviewsample.linear.vertical;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.annotation.UiThread;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,6 +9,9 @@ import com.bignerdranch.expandablerecyclerview.ExpandableRecyclerAdapter;
 import com.bignerdranch.expandablerecyclerviewsample.R;
 
 import java.util.List;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.UiThread;
 
 public class RecipeAdapter extends ExpandableRecyclerAdapter<Recipe, Ingredient, RecipeViewHolder, IngredientViewHolder> {
 

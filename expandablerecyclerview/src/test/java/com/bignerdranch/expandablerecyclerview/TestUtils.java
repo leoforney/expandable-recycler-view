@@ -1,10 +1,11 @@
 package com.bignerdranch.expandablerecyclerview;
 
 import android.database.Observable;
-import android.support.v7.widget.RecyclerView;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 import static org.mockito.Mockito.mock;
 

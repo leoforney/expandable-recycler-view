@@ -1,9 +1,6 @@
 package com.bignerdranch.expandablerecyclerviewsample.linear.horizontal;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.annotation.UiThread;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,6 +9,9 @@ import com.bignerdranch.expandablerecyclerview.ExpandableRecyclerAdapter;
 import com.bignerdranch.expandablerecyclerviewsample.R;
 
 import java.util.List;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.UiThread;
 
 /**
  * An example custom implementation of the ExpandableRecyclerAdapter.

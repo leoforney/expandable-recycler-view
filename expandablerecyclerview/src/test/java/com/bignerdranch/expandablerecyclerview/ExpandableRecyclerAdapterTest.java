@@ -1,7 +1,5 @@
 package com.bignerdranch.expandablerecyclerview;
 
-import android.support.annotation.NonNull;
-import android.support.v7.widget.RecyclerView.AdapterDataObserver;
 import android.view.ViewGroup;
 
 import com.bignerdranch.expandablerecyclerview.model.ExpandableWrapper;
@@ -14,6 +12,9 @@ import org.mockito.Mockito;
 import java.util.ArrayList;
 import java.util.List;
 
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
+
 import static junit.framework.Assert.assertEquals;
 import static org.mockito.Matchers.anyInt;
 import static org.mockito.Mockito.mock;
@@ -25,7 +26,7 @@ public class ExpandableRecyclerAdapterTest {
 
     private TestExpandableRecyclerAdapter mExpandableRecyclerAdapter;
     private List<Parent<Object>> mBaseParents;
-    private AdapterDataObserver mDataObserver;
+    private RecyclerView.AdapterDataObserver mDataObserver;
 
     @Before
     public void setup() throws NoSuchFieldException, IllegalAccessException {
